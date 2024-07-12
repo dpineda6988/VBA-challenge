@@ -47,7 +47,7 @@ The .vbs file (titled 'QuarterlyStockAnalyzer.vbs') can be downloaded from this 
 Once imported into an Excel workbook, the QuarterlyStockAnalyzer macro can be executed as any other Excel macro:
 1. Select the Developer tab
 2. Click on Macros in the Code group
-3. Select the 'QuarterlystockAnalyzer' macro
+3. Select the 'QuarterlyStockAnalyzer' macro
 4. Click the Run button
 
 ## Author
