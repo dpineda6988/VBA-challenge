@@ -7,7 +7,7 @@ An Excel macro, created using VBA, that can be used to generate a summary of qua
 
 While stock price data is typically recorded by day, it is common to aggregate the data into larger time spans, such as by quarter, for purposes of analysis and evaluation.  Aggregating daily data into a quarterly summary can be acheived via a spreadsheet program such as Excel through the use of formulas and pivot tables, however, depending on the amount of data and the user's competency, this task can potentially be time consuming.  To streamline this process, it is possible to use VBA to code a macro to complete this task with one single activation.  QuarterlyStockAnalyzer is an example of such a macro which analyzes the data set of daily stock prices within a given quarter and prints next to it a quarterly summary of each stock's price and volume metrics. The fields included in the generated quarterly summary are as follows:
 
-*Ticker - the ticker symbol for each respective stock
+* Ticker - the ticker symbol for each respective stock
 * Quarterly Change - the change from the opening price of the stock at the beginning of a given quarter to the closing price at the end of that quarter, expressed as a dollar amount and conditionally formatted to be green for a positive change and red for a negative change
 * Percentage Change - the change the opening price of the stock at the beginning of a given quarter to the closing price at the end of that quarter, expressed as a percentage
 * Total Stock Volume - the total trading volume of a stock for the quarter
@@ -59,6 +59,6 @@ Daniel Pineda
 QuarterlyStockAnalyzer was created as an assignment for the University of California, Irvine Data Analytics Bootcamp - June 2024 Cohort under the instruction and guidance of Melissa Engle (Instructor) and Mitchell Stone (TA).
 The practical exercises and coding examples demonstrated through the bootcamp helped inform and inspire the code for this project.
 
-In addition, the following resources were used for additional reference (sections of code within QuarterlyStockAnalyzer.vbs file noted in parentheses):
+In addition, the following resources were used for further reference (sections of code within QuarterlyStockAnalyzer.vbs file noted in parentheses):
 * [Microsoft Office Library Reference](https://learn.microsoft.com/en-us/office/vba/api/overview/library-reference) - referenced for how to implement Range.NumbersFormat property(Lines 41, 43, 48, 50), Range.AutoFit method(Lines 45 & 54), and Range.Activate method (Line 32)
 * [WallStreetMojo - VBA Last Row | Top 3 Methods](https://www.wallstreetmojo.com/vba-last-row/) - referenced for how to determine the last row of data in an Excel worksheet using VBA code (Line 36)
